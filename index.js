@@ -12,7 +12,7 @@ const allowCrossDomain = (req, res, next) => {
     // if (req.methods === 'OPTIONS') {
     //     res.send(200);
     // } else {
-    //     next();
+    next();
     // }
 };
 
