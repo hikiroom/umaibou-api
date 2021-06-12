@@ -6,5 +6,8 @@ module.exports = {
     },
     item({ name }) {
         return data.find((item) => item.name === name);
+    },
+    test() {
+        return 'Hello';
     }
 };

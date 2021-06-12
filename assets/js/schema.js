@@ -12,5 +12,6 @@ module.exports = buildSchema(`
     type Query {
         list: [Data]
         item(name: String!): Data!
+        hello: String
     }
 `);
