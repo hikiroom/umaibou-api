@@ -6,7 +6,7 @@ const { graphqlHTTP } = require('express-graphql');
 const schema = require('./assets/js/schema');
 const resolver = require('./assets/js/resolver');
 
-app.use(express.static('/assets/img'));
+app.use(express.static('assets/img'));
 app.post('/graphql', graphqlHTTP({
     schema,
     rootValue: resolver,

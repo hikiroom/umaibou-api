@@ -1,4 +1,4 @@
-const basePath = 'https://umaibou-api.herokuapp.com/';
+const basePath = 'https://umaibou-api.herokuapp.com';
 
 module.exports = [
     {
