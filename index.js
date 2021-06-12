@@ -27,5 +27,8 @@ app.get('/graphql', graphqlHTTP({
     rootValue: resolver,
     graphiql: true,
 }));
+app.get('/', (req, res) => {
+    res.send('test');
+});
 
 app.listen(port);
