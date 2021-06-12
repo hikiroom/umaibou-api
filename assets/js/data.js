@@ -1,5 +1,4 @@
-const path = require('path');
-const basePath = path.join(__dirname, '../img');
+const basePath = 'https://umaibou-api.herokuapp.com/assets/img';
 
 module.exports = [
     {
