@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "dev": "ts-node index.ts",
-    "start": "ts-node index.ts -T"
+    "start": "ts-node index.ts"
   },
   "keywords": [],
   "author": "hikikomori",
