@@ -3,10 +3,10 @@ const app = express();
 const devPort = 3000;
 const port = process.env.PORT || devPort;
 const { graphqlHTTP } = require('express-graphql');
-const schema = require('./assets/js/schema');
-const resolver = require('./assets/js/resolver');
+const schema = require('./src/ts/schema');
+const resolver = require('./src/ts/resolver');
 
-app.use(express.static('assets/img'));
+app.use(express.static('src/img'));
 app.post('/graphql', graphqlHTTP({
     schema,
     rootValue: resolver,

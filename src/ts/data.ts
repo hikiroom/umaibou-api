@@ -1,6 +1,14 @@
-const basePath = 'https://umaibou-api.herokuapp.com';
+export type Item = {
+    name: string
+    catchCopy: string
+    detail: string
+    releaseDate: string
+    img: string
+    premium: boolean
+};
 
-module.exports = [
+const basePath = 'https://umaibou-api.herokuapp.com';
+const list: Item[] = [
     {
         'name': 'とんかつソース味',
         'catchCopy': 'いちばん古いうまい棒！',
@@ -178,3 +186,5 @@ module.exports = [
         'premium': true,
     }
 ];
+
+module.exports = list;

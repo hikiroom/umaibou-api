@@ -1,7 +1,7 @@
 const { buildSchema } = require('graphql');
 
 module.exports = buildSchema(`
-    type Data {
+    type Item {
         name: String
         catchCopy: String
         detail: String
@@ -10,7 +10,7 @@ module.exports = buildSchema(`
         color: [String]
     }
     type Query {
-        list: [Data]
-        item(name: String!): Data!
+        list: [Item]
+        item(name: String!): Item!
     }
 `);
