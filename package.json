@@ -2,7 +2,7 @@
   "name": "umaibou-api",
   "version": "1.0.0",
   "description": "うまい棒商品情報API",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "start": "ts-node index.ts"
   },
