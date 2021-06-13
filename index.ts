@@ -10,6 +10,7 @@ const port = process.env.PORT || devPort;
 app.use(express.static('src/img'));
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Headers', 'Content-Type');
 
     if (req.method === 'OPTIONS') {
         res.send(200);
