@@ -7,7 +7,7 @@ export default buildSchema(`
         detail: String
         releaseDate: String
         img: String
-        color: [String]
+        premium: Boolean
     }
     type Query {
         list: [Item]

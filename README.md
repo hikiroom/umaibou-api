@@ -16,6 +16,7 @@ const query = {
             detail
             releaseDate
             img
+            premium
         }
     }`
 };
