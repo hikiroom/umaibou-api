@@ -1,6 +1,11 @@
-# うまい棒商品情報API
+# うまい棒の商品情報取得API
 
-## Usage
+うまい棒の商品情報を取得するためのGraphQL APIです。  
+各種フィールドは以下のGraphiQLから参照してください。
+
+https://umaibou-api.herokuapp.com/graphql/
+
+## 使い方
 
 ```js
 const query = {
