@@ -1,8 +1,6 @@
-import { Item } from './data';
+import data from './data';
 
-const data:Item[] = require('./data');
-
-module.exports = {
+export default {
     list() {
         return data;
     },

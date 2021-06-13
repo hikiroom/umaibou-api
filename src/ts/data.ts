@@ -187,4 +187,4 @@ const list: Item[] = [
     }
 ];
 
-module.exports = list;
+export default list;
